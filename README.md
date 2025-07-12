@@ -1,8 +1,4 @@
-Based on your description of the **Skill Swap Platform**, here's a well-structured **"About the Project"** and **"Approach"** section that you can use for documentation, presentations, GitHub README, or reports:
-
----
-
-## **About the Project**
+**About the Project**
 
 The **Skill Swap Platform** is a web-based application designed to foster collaborative learning and resource exchange through a community-driven skill-sharing network. Users can list the skills they offer and those they seek to learn, enabling a mutually beneficial swapping system. The platform emphasizes user autonomy, discovery, and secure interaction, with features supporting privacy, transparency, and accountability.
 
@@ -62,7 +58,12 @@ The Skill Swap Platform was developed using a modular, full-stack approach with 
 * **Enhanced Mobile UX**: Complete mobile-first design for easier skill swapping on the go.
 * **AI-Powered Skill Matching** *(Optional Future Phase)*: Recommending potential matches based on skill compatibility and user history.
 
----
-
-Would you like this formatted as a PDF or README file? I can also help you write the GitHub README with badges, setup instructions, and contribution guidelines.
-
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Full-stack: FastAPI (Python backend), React (JavaScript frontend).
+Database: MongoDB (NoSQL).
+Authentication: JWT, bcrypt for password hashing.
+Frontend Styling: Tailwind CSS.
+Frontend Routing: React Router.
+API Communication: RESTful APIs with /api prefix.
+Environment: Kubernetes, supervisor, .env for environment variables (REACT_APP_BACKEND_URL, MONGO_URL).
+Tools: bulk_file_writer, testing_agent, vision_expert_agent, yarn (frontend package management).
